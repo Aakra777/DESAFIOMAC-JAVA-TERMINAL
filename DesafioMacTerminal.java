@@ -26,10 +26,7 @@ public class DesafioMacTerminal {
                  int diferenca = idade01 - idade02;
                  int diferencaTratada = diferenca < 0 ? diferenca * -1 : diferenca;
 
-
-
         System.out.println("A diferença de idade de "+nome01+" e "+nome02+" é de "+diferencaTratada+" anos.");
-            System.out.println(diferencaTratada);
 
         scanner.close();
 
